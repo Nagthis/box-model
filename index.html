@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Document</title>
 </head>
 
@@ -14,8 +15,9 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
         </nav>
     </header>
@@ -25,12 +27,91 @@
             <h2>Welcome to My Website</h2>
             <p>This is the home section where you can find the latest updates.</p>
             <button>
-                <a href="#about">Learn More</a>
+                <a href="#products">Learn More</a>
             </button>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=1" alt="Product 1">
+                    <p>Product 1 - High quality and affordable price</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=2" alt="Product 2">
+                    <p>Product 2 - Perfect for daily use</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=3" alt="Product 3">
+                    <p>Product 3 - Premium quality materials</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=4" alt="Product 4">
+                    <p>Product 4 - Best seller of the month</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=5" alt="Product 5">
+                    <p>Product 5 - Eco-friendly and sustainable</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=6" alt="Product 6">
+                    <p>Product 6 - Limited edition design</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=7" alt="Product 7">
+                    <p>Product 7 - Professional grade quality</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=8" alt="Product 8">
+                    <p>Product 8 - Customer favorite choice</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=9" alt="Product 9">
+                    <p>Product 9 - Innovative technology</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=10" alt="Product 10">
+                    <p>Product 10 - Multi-purpose functionality</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=11" alt="Product 11">
+                    <p>Product 11 - Award winning design</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/200/150?random=12" alt="Product 12">
+                    <p>Product 12 - Exceptional value for money</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea id="comentario" name="comentario" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
     <footer>
         <p>&copy; 2025 My Website</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
     </footer>
 
 
